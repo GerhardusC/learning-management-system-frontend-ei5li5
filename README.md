@@ -197,3 +197,12 @@ Users are authenticated using json web tokens.
 The secret key is in a .env file and is added to the .gitignore file.
 
 ## 13. Deployment
+
+You can find the backend here:
+https://github.com/GerhardusC/learning-management-system-backend-ei5li5
+
+### 13.1
+
+Backend: https://learning-management-system-backend-ei5li5.vercel.app/
+
+Frontend: https://explain-in-5-like-im-5.vercel.app/
