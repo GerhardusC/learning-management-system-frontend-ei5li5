@@ -1,0 +1,64 @@
+/* Learner navigation bar styles. */
+.navigationBar {
+  background-color: #0d6986;
+  padding: auto;
+  box-shadow: 0px 0px 7px gray;
+}
+.navigationList {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 130px;
+}
+
+.welcomeMessage {
+  font-size: xx-large;
+  padding: 10px;
+  color: #fff;
+}
+
+.navigationLinks a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: large;
+  transition: transform 0.1s, color 0.1s, background-color 0.1s;
+}
+
+.navigationLinks a:hover {
+  transform: scale(1.1);
+}
+
+.navigationLinks {
+  display: flex;
+  align-items: center;
+}
+
+.logoutButton {
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+  background-color: #6e031e;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(62, 84, 97);
+}
+
+.logoutButton:hover {
+  background-color: #99052b;
+}
+
+.activeNavigationButton {
+  color: #21cfa6;
+  font-weight: bold;
+}
+.inactiveNavigationButton {
+  color: #f2efdc;
+}
+
+.navSeparator {
+  color: white;
+  width: 3px;
+}

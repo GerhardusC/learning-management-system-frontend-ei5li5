@@ -1,0 +1,83 @@
+/* Styles for the login and register pages. */
+.landingFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.landingForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 2px 2px 5px rgb(191, 191, 191);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.landingForm input {
+  width: 260px;
+  font-size: large;
+  text-align: center;
+}
+
+.landingForm button {
+  width: 150px;
+  align-self: center;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(185, 185, 185);
+  border-radius: 5px;
+  transition: transform 0.1s;
+}
+
+.landingForm button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.landingForm a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 130px;
+  align-self: center;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(185, 185, 185);
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  transition: transform 0.1s;
+}
+
+.landingForm a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+}
+
+.landingForm p {
+  color: gray;
+  margin: 0;
+}
+
+.selectRoleForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectRoleForm select {
+  padding: 10px;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(182, 182, 182);
+}
+
+.selectRoleForm label {
+  font-size: large;
+  color: rgb(91, 91, 91);
+}

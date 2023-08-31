@@ -1,0 +1,184 @@
+/* Styles for the editing forms for components. */
+.creatorThumbnail {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(171, 171, 171);
+  width: 200px;
+}
+
+.buttonContainer {
+  grid-column: 1 / span 2;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.editButton {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  height: 45px;
+  background-color: #d3ba00;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 5px rgb(177, 177, 177);
+}
+
+.deleteButton {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  height: 45px;
+  background-color: #af0631;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 5px rgb(177, 177, 177);
+  transition: transform 0.1s;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.363);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalWindow {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.modalWindow textarea {
+  min-height: 100px;
+  min-width: 200px;
+}
+
+.modalWindow label {
+  font-size: x-large;
+  color: rgb(42, 42, 42);
+}
+
+.modalWindow input {
+  font-size: larger;
+}
+
+.modalWindow select {
+  font-size: x-large;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(206, 206, 206);
+  transition: background-color 0.1s;
+}
+
+.modalWindow select:focus {
+  background-color: aliceblue;
+}
+
+.modalWindow h3 {
+  margin: 0;
+}
+
+.formLayout {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 20px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.optionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px rgb(184, 184, 184);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.optionContainer p {
+  padding: 0px 10px;
+}
+
+.optionActions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.optionActions button {
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #af0631;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 3px rgb(208, 208, 208);
+  transition: transform 0.1s;
+}
+
+.optionActions button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.addComponentButton {
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #00b978;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 3px rgb(208, 208, 208);
+  transition: transform 0.1s;
+}
+
+.cancelButton {
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #af0631;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 3px rgb(208, 208, 208);
+  transition: transform 0.1s;
+}
+
+.addComponentButton:hover,
+.cancelButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

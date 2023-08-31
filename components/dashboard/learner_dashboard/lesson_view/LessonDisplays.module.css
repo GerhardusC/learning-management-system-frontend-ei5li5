@@ -1,0 +1,71 @@
+/* Styles to display lessons to learners. */
+.completeLessonThumb {
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(171, 171, 171);
+  width: 200px;
+}
+
+.incompleteLessonThumb {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(171, 171, 171);
+  width: 200px;
+}
+
+.thumbnailHeading {
+  margin: 0;
+}
+.thumbnailAuthor {
+  text-align: right;
+  color: gray;
+}
+.thumbnailButton {
+  text-decoration: none;
+  color: #c7dee3;
+  margin: auto;
+  box-shadow: 2px 2px 5px gray;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #0d6986;
+  transition: transform 0.1s, color 0.1s;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.thumbnailButton:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.lessonTitle {
+  color: #07485b;
+}
+
+.finishButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.finishLessonButton {
+  font-size: larger;
+  border: none;
+  background-color: #0d6986;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  transition: transform 0.1s, background-color 0.1s;
+  box-shadow: 2px 2px 5px rgb(179, 179, 179);
+}
+
+.finishLessonButton:hover {
+  transform: scale(1.1);
+  background-color: #1398c2;
+  cursor: pointer;
+}

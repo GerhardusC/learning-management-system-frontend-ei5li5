@@ -1,0 +1,35 @@
+/* Styles for the large parts of the creator dashboard. */
+.newLessonButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.newLessonButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 20px;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  box-shadow: 2px 2px 5px gray;
+  background-color: rgb(20, 152, 189);
+  color: rgb(255, 255, 255);
+  transition: transform 0.1s, background-color 0.1s;
+}
+
+.newLessonButton:hover {
+  transform: scale(1.1);
+  background-color: rgb(22, 181, 224);
+}
+
+.editingFormContainer {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.pageDescriptionText {
+  color: rgb(92, 92, 92);
+}

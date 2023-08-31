@@ -1,0 +1,90 @@
+/* Styling for learner lesson view components. */
+.multichoiceContainer {
+  box-shadow: 2px 2px 5px gray;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #c6e3e9;
+  margin: 20px;
+}
+
+.componentDescription {
+  margin: 0;
+  color: #0d6986;
+}
+
+.questionText {
+  font-size: large;
+}
+
+.componentButton {
+  font-size: large;
+  background-color: #07485b;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #488496;
+  transition: transform 0.1s;
+  margin-top: 20px;
+}
+
+.componentButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.option {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #56757f;
+  border-radius: 5px;
+}
+
+.correctFeedback {
+  padding: 20px;
+  margin: 20px;
+  background-color: #8ce0d7;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+  font-size: large;
+}
+.incorrectFeedback {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fce39b;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.answerInput {
+  font-size: large;
+  height: 30px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.imageDisplay {
+  max-width: 600px;
+}
+
+.imageCaption {
+  text-align: center;
+}
+
+.videoContainer {
+  text-align: center;
+}

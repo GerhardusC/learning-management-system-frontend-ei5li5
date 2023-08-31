@@ -1,0 +1,15 @@
+/* Styles for tags. */
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.tag {
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgb(164, 164, 164);
+  border-radius: 10px;
+  background-color: #29a88b;
+  color: rgb(233, 233, 233);
+}
